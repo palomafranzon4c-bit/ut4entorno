@@ -13,7 +13,6 @@ public class Factura {
         return descuento;
 
     }
-
     public static void imprimirFactura(Pedido pedido) {
         System.out.println("Cliente: " + pedido.getCliente());
         System.out.println("Cantidad: " + pedido.getCantidad());
