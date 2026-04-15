@@ -7,7 +7,7 @@ public class Factura {
         }
         return precioTotal;
     }
-
+//Prueba para Git Branch 
     public static double aplicarDescuento(double precioTotal){
         double descuento = precioTotal - (precioTotal *0.1);
         return descuento;
